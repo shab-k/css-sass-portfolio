@@ -1,26 +1,9 @@
 @import 'config';
 @import 'header';
 @import 'about';
+@import 'photos';
 
-.images{
-  text-align: center;
-  margin: 80px 0;
-  white-space: nowrap;
-  // background-size: cover;
-}
-.images li{
-  display: inline-block;
-  list-style-type: none;
-  width: 20%;
-  margin: 10px 2%;
-  position: relative;
-}
-.images li:hover{
-  top: -4px;
-}
-.images li img{
-  max-width: 100%;
-}
+
 #contact{
   background: #F4F4F4;
   text-align: center;
