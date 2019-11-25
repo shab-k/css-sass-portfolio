@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AACD,AAAA,IAAI,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,CAAC,AAAA,CACrB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,WAAW,CAAE,4BAA4B,CAC1C",
     "sources": [
-        "../../scss/main.scss"
+        "../../scss/main.scss",
+        "../../scss/_config.scss"
     ],
     "names": [],
     "file": "main.min.css"
