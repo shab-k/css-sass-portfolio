@@ -4,7 +4,9 @@ nav{
   // position: sticky;
   // top: 106px;
   // z-index: 1;
-  background-color: #f4f4f4;
+  // background-color: #f4f4f4;
+  background: #000;
+  color: #fff;
   padding: 15px 0;
   text-align: center;
   position: fixed;
@@ -26,7 +28,8 @@ nav li{
 }
 nav li a{
   text-decoration: none;
-  color: #4B4B4B;
+  // color: #4B4B4B;
+  color: #fff;
 }
 nav li a:hover{
   text-decoration: underline;
@@ -40,10 +43,19 @@ nav li a:hover{
 }
 .banner .welcome{
   background:#9e967f;
+  opacity: .7;
+  // overflow: hidden;
+  text-align: center;
+  // background-size: cover;
   color: white;
   padding: 30px;
-  font-size: 60px;
+  font-size: 40px;
+  // left: 15%;
+  // top: 40%;
+  width: 50%;
+  height: 20%;
+  overflow: auto;
+  margin: auto;
   position: absolute;
-  left: 15%;
-  top: 30%;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
