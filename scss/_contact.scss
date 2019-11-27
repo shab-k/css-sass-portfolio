@@ -4,7 +4,7 @@
   text-align: center;
 }
 #contact a {
-  color: #004d40;
+  color: $main-color;
 }
 #contact a:hover{
   color: #55dac3;
@@ -18,7 +18,7 @@
     background: #F4F4F4;
     text-align: center;
     // padding: 60px 20px;
-    color: #004d40;
+    color: $main-color;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
