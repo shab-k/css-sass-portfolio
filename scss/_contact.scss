@@ -1,0 +1,65 @@
+#contact h2{
+  padding-top: 10px;
+  flex:1 1 100%;
+  text-align: center;
+}
+#contact a {
+  color: #004d40;
+}
+#contact a:hover{
+  color: #55dac3;
+}
+#contact a:visited{
+  color: #911b0b;
+}
+/* ---- Small Screens --- */
+@media screen and (max-width: 600px){
+  #contact{
+    background: #F4F4F4;
+    text-align: center;
+    // padding: 60px 20px;
+    color: #004d40;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #contact > a:nth-child(n) {
+      width: 100%;
+      flex:1 1 100%;
+      padding: 10px;
+    }
+    
+}
+
+
+/* ---- Medium Screens --- */
+@media screen and (min-width: 600px) and (max-width: 900px){
+  #contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  #contact > a:nth-child(n) {
+    box-sizing: border-box;
+    margin: 15px 0;
+  }
+  
+}
+/* ---- Big Screens --- */
+@media screen and (min-width: 900px){
+  #contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  #contact > a:nth-child(n) > i {
+    width: 30%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 10px;
+    // flex: 1 1 30%;
+  }
+  
+}
