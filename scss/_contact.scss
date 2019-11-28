@@ -14,6 +14,9 @@
 }
 /* ---- Small Screens --- */
 @media screen and (max-width: 600px){
+  i.fa-4x {
+    font-size: 2em;
+}
   #contact{
     background: #F4F4F4;
     text-align: center;
@@ -31,6 +34,9 @@
 
 /* ---- Medium Screens --- */
 @media screen and (min-width: 600px) and (max-width: 900px){
+  i.fa-4x {
+    font-size: 3em;
+}
   #contact{
     @include flexbox(space-around);
     padding: 20px;
