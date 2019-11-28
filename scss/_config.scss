@@ -1,5 +1,11 @@
 $main-color: #004d40;
 
+@mixin flexbox($justify) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $justify;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

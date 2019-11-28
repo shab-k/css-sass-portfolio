@@ -17,11 +17,8 @@
   #contact{
     background: #F4F4F4;
     text-align: center;
-    // padding: 60px 20px;
     color: $main-color;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flexbox(space-between);
   }
   #contact > a:nth-child(n) {
       width: 100%;
@@ -35,9 +32,7 @@
 /* ---- Medium Screens --- */
 @media screen and (min-width: 600px) and (max-width: 900px){
   #contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flexbox(space-around);
     padding: 20px;
   }
   #contact > a:nth-child(n) {
@@ -49,9 +44,7 @@
 /* ---- Big Screens --- */
 @media screen and (min-width: 900px){
   #contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flexbox(center);
     padding: 20px;
   }
   #contact > a:nth-child(n) > i {
@@ -59,7 +52,6 @@
     box-sizing: border-box;
     margin: 15px 0;
     padding: 10px 100px;
-    // flex: 1 1 30%;
   }
   
 }

@@ -14,9 +14,7 @@
 /* ---- Medium Screens --- */
 @media screen and (min-width: 600px) and (max-width: 900px){
   #photos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flexbox(space-between);
     padding: 30px;
   }
   #photos img{
@@ -32,9 +30,7 @@
 /* ---- Big Screens --- */
 @media screen and (min-width: 900px){
   #photos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flexbox(center);
     padding: 30px;
   }
   #photos img{
